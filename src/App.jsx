@@ -59,7 +59,6 @@ const columns = [
 
 function App() {
   const [data, setData] = useState(() => [...defaultData])
-  const [columns] = React.useState(() => [...columns])
   const [columnVisibility, setColumnVisibility] = React.useState({})
 
   const table = useReactTable({

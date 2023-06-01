@@ -6,6 +6,10 @@ body {
   color: white;
 }
 
+table {
+  margin-top: 20px;
+}
+
 th {
   padding-right: 40px;
 }
