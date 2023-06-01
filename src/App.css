@@ -1,0 +1,15 @@
+body {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  color: white;
+}
+
+th {
+  padding-right: 40px;
+}
+
+th:nth-child(5) {
+  padding-right: 100px;
+}
